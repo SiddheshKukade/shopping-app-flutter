@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shopping_app_flutter/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("ShopBee - Your one stop solution !"),
       ),
-      drawer: const Drawer(backgroundColor: Colors.tealAccent),
+      drawer: const MyDrawer(),
     );
   }
 }
